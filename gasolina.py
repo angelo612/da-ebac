@@ -6,6 +6,5 @@ preços_gasolina
 # código de geração do gráfico 
 with sns.axes_style('whitegrid'):
 
-  grafico = sns.lineplot(data=preços_gasolina, x="dia",y="venda",palette="pastel")
-  grafico.set(title='Preço da Gasolina por Dia', xlabel='Dias', ylabel='Preços');
+  grafico = sns.lineplot(data=preços_gasolina, x="dia",y="venda",palette="seagree")
   plt.savefig('gasolina.png')
